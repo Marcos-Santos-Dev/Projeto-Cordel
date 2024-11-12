@@ -1,2 +1,65 @@
 @charset "utf-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: darkgrey;
+    min-height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color:rgb(118, 117, 117);
+}
+
+.imagem p{
+    background-color: rgba(0, 0, 0, 0.244);
+    color: white;
+    width: 400px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
