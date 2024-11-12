@@ -69,10 +69,10 @@ section p{
 
 .imagem{
     background-color:rgb(118, 117, 117);
-    background-size: cover;
     box-shadow: inset 2px 2px 8px 0 rgba(0, 0, 0, 0.573);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .imagem p{
